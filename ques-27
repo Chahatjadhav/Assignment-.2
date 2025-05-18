@@ -1,0 +1,15 @@
+//27 Create a program that takes two integers as command line arguments and prints their 
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(int argc, char* argv[]) {
+    if (argc != 3) {
+        cout << "Please provide two integers." << endl;
+        return 1;
+    }
+    int a = atoi(argv[1]);
+    int b = atoi(argv[2]);
+    cout << "Sum: " << a + b << endl;
+    return 0;
+}

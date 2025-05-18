@@ -1,0 +1,15 @@
+// 
+int main() {
+    double r;
+    cout << "Enter radius: ";
+    cin >> r;
+
+    double area = areaOfCircle(r);
+    cout << "Area of circle: " << area << endl;
+
+    return 0;
+}
+
+
+
+
